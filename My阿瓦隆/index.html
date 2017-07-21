@@ -1,0 +1,435 @@
+<!DOCTYPE html> <!--声明文档类型-->
+<html lang="en">
+	 <head>
+		  <meta charset="UTF-8">	<!--字符集编码-->
+		  <meta name="Generator" content="EditPlus®">
+		  <meta name="Author" content="">
+		  <meta name="Keywords" content=""> <!--关键词，优化SEO搜索-->
+		  <meta name="Description" content=""> <!--网页描述-->
+		  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		  <!-- Bootstrap -->
+		  <link rel="stylesheet" href="./css/bootstrap.min.css">
+		 <link rel="stylesheet" href="css/swiper-min.css">
+		 <link rel="stylesheet" href="css/animate.min.css">
+		 <link rel="stylesheet" href="css/index.css">
+		  <title>Von.Qin Blog</title> <!--网页标题-->
+
+	 </head>
+ <body>
+ 	<canvas id="canvas">你的浏览器版本过低，不支持canvas</canvas>
+	<header id="header">
+		<nav id="menu" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Mr.Qin Blok</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#top-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="top-navbar-collapse">
+					<ul id="dropmenu" class="nav navbar-nav" >
+						<li class="active">
+							<a href="#home"><span class="glyphicon glyphicon-home"></span> 首页</a>
+							<audio class="audio" src="mp3/1.mp3"></audio>
+						</li>
+						<li class="dropdown" >
+							<a href="##" class="dropdown-toggle" data-toggle="dropdown" data-target="top-navbar-collapse"><span class="glyphicon glyphicon-book"></span> 技术学习<span class="caret"></span></a>
+							<audio class="audio" src="mp3/3.mp3"></audio>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#h5">HTML5</a></li>
+								<li class="divider"></li>
+								<li >
+									<a href="#css3">CSS3</a></li>
+								<li class="divider"></li>
+								<li>
+									<a href="#js">JavaScript</a></li>
+								<li class="divider"></li>
+								<li>
+									<a href="#node">Node.js</a></li>
+								<li class="divider"></li>
+								<li>
+									<a href="#vue">Vue</a></li>
+								<li>
+									<a href="#bootstrap">Bootstrap</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#life"><span class="glyphicon glyphicon-leaf"></span> 生活点滴</a>
+							<audio class="audio" src="mp3/2.mp3"></audio>
+						</li>
+						<li>
+							<a href="#myMusic"><span class="glyphicon glyphicon-music"></span> 我的音乐</a>
+							<audio class="audio" src="mp3/3.mp3"></audio>
+						</li>
+						<li >
+							<a href="#myGame"><span class="glyphicon glyphicon-fire"></span> 我的游戏</a>
+							<audio class="audio" src="mp3/4.mp3"></audio>
+						</li>
+						<li>
+							<a href="#about"><span class="glyphicon glyphicon-user"></span> 关于博主</a>
+							<audio class="audio" src="mp3/5.mp3"></audio>
+						</li>
+						<li>
+							<a href="#guestbook"><span class="glyphicon glyphicon-comment"></span> 留言版</a>
+							<audio class="audio" src="mp3/6.mp3"></audio>
+						</li>
+					</ul>
+				</div><!-- /.nav-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav><!--顶部导航栏 end-->
+	</header><!--end of header-->
+	<section id="main">
+		<div id="myCarousel" class="carousel slide">
+			<ul class="carousel-inner">
+				<li class="item active">
+					<img src="./img/7.jpg" alt="First slide">
+					<div class="carousel-caption">逐日之旅，<br>于天际翱翔，而不知疲倦。</div>
+				</li>
+				<li class="item">
+					<img src="./img/8.jpg" alt="Second slide">
+					<div class="carousel-caption">当是归途，<br>于落霞之息漫步,倘佯旧时光。</div>
+				</li>
+				<li class="item">
+					<img src="./img/4.jpg" alt="Third slide">
+					<div class="carousel-caption">行至孤星映月时，独坐静思。</div>
+				</li>
+			</ul>
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+		<div id="study" class="container">
+			<h3 class="text-center">My Study About Web</h3>
+			<div class="swiper-slide row">
+				<div class="col-md-4 col-sm-6  item " id="h5">
+					<a href="" class="thumbnail">
+						<img src="img/blog-1.jpg" alt="blog-1" >
+					</a>
+					<div class="page-header" >
+						<h4>关于H5
+							<small>一个网页难免遇到使用a标签的时候。不过最近在工作中...</small>
+						</h4>
+						<a href="" class="text-center more">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 item" id="css3">
+					<a href="" class="thumbnail">
+						<img src="img/blog-2.jpg" alt="blog-2" >
+					</a>
+					<div class="page-header">
+						<h4>关于css3
+							<small>React以及React Native历史 Rea...</small>
+						</h4>
+						<a href="" class="text-center more">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 item" id="js">
+					<a href="" class="thumbnail">
+						<img src="img/blog-3.jpg" alt="blog-3" >
+					</a>
+					<div class="page-header">
+						<h4>关于JavaScript
+							<small>前端开发与网页设计工作者在日常工作中或者是在平时搭...</small>
+						</h4>
+						<a href="" class="text-center more">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 item" id="node">
+					<a href="" class="thumbnail">
+						<img src="img/blog-4.jpg" alt="blog-4" >
+					</a>
+					<div class="page-header">
+						<h4>关于Node.js
+							<small>在CSS中我们经常使用到display属性来对元素...</small>
+						</h4>
+						<a href="" class="text-center more">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6  item" id="vue">
+					<a href="" class="thumbnail">
+						<img src="img/blog-5.jpg" alt="blog-5" >
+					</a>
+					<div class="page-header">
+						<h4>关于vue
+							<small>我们或许有多个邮箱，然而现在的邮箱基本上都会有一个...</small>
+						</h4>
+						<a href="" class="text-center more">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6  item" id="BootStrap">
+					<a href="" class="thumbnail">
+						<img src="img/blog-6.jpg" alt="blog-6" >
+					</a>
+					<div class="page-header">
+						<h4>关于BootStrap
+							<small>在实际项目中，对于一些重要的文本，希望突出强调的部...</small>
+						</h4>
+						<a href="" class="text-center more">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="life" class="container">
+				<h3 class="text-center">My Inspiration About Life</h3>
+				<div class="row">
+					<div class="col-md-6 item" >
+						<a href="" class="thumbnail">
+							<img src="img/life-1.jpg" alt="life-1" >
+						</a>
+						<div class="label">
+							<span class="glyphicon glyphicon-folder-open label-icon"></span>&nbsp;
+							<a href="" class="theme">电影&&动漫，</a><a href="classify">生活</a>
+						</div>
+						<div class="page-header" >
+							<h4>
+								<a href="" class="title">火影人生</a>
+							</h4>
+							&nbsp;By&nbsp;<a href="" class="author">Sphinx</a>
+						</div>
+						<div class="item-info">
+						<span class="time-info">
+							<b class="glyphicon glyphicon-time label-icon"></b>
+							<i class="date">2017-07-19</i>,<i class="time">15:49</i>
+						</span>
+							<span class="tag-info">
+							<b class="glyphicon glyphicon-tag label-icon"></b>
+							<a>电影&动漫</a>
+						</span>
+							<span class="message">
+							<b class="glyphicon glyphicon-comment label-icon"></b>
+							<a data-toggle="tooltip" data-placement="bottom"
+							   title="留言">0</a>
+						</span>
+							<p class="introduce">一个网页难免遇到使用a标签的时候。不过最近在工作中遇到许多的同学使用a标签的时候遇到a标签被莫名其妙 …</p>
+							<a href="" class="btn btn-primary"><b>Continue reading</b><i></i></a>
+						</div>
+					</div>
+					<div class="col-md-6 item" >
+						<a href="" class="thumbnail">
+							<img src="img/life-2.jpg" alt="life-2" >
+						</a>
+						<div class="label">
+							<span class="glyphicon glyphicon-folder-open label-icon"></span>&nbsp;
+							<a href="" class="theme">电影&&动漫，</a><a href="classify">生活</a>
+						</div>
+						<div class="page-header" >
+							<h4>
+								<a href="" class="title">火影人生</a>
+							</h4>
+							&nbsp;By&nbsp;<a href="" class="author">Sphinx</a>
+						</div>
+						<div class="item-info">
+						<span class="time-info">
+							<b class="glyphicon glyphicon-time label-icon"></b>
+							<i class="date">2017-07-19</i>,<i class="time">15:49</i>
+						</span>
+							<span class="tag-info">
+							<b class="glyphicon glyphicon-tag label-icon"></b>
+							<a>电影&动漫</a>
+						</span>
+							<span class="message">
+							<b class="glyphicon glyphicon-comment label-icon"></b>
+							<a data-toggle="tooltip" data-placement="bottom"
+							   title="留言">0</a>
+						</span>
+							<p class="introduce">一个网页难免遇到使用a标签的时候。不过最近在工作中遇到许多的同学使用a标签的时候遇到a标签被莫名其妙 …</p>
+							<a href="" class="btn btn-primary"><b>Continue reading</b><i></i></a>
+						</div>
+					</div>
+					<div class="col-md-6 item" >
+						<a href="" class="thumbnail">
+							<img src="img/life-3.jpg" alt="life-3" >
+						</a>
+						<div class="label">
+							<span class="glyphicon glyphicon-folder-open label-icon"></span>&nbsp;
+							<a href="" class="theme">电影&&动漫，</a><a href="classify">生活</a>
+						</div>
+						<div class="page-header" >
+							<h4>
+								<a href="" class="title">火影人生</a>
+							</h4>
+							&nbsp;By&nbsp;<a href="" class="author">Sphinx</a>
+						</div>
+						<div class="item-info">
+						<span class="time-info">
+							<b class="glyphicon glyphicon-time label-icon"></b>
+							<i class="date">2017-07-19</i>,<i class="time">15:49</i>
+						</span>
+							<span class="tag-info">
+							<b class="glyphicon glyphicon-tag label-icon"></b>
+							<a>电影&动漫</a>
+						</span>
+							<span class="message">
+							<b class="glyphicon glyphicon-comment label-icon"></b>
+							<a data-toggle="tooltip" data-placement="bottom"
+							   title="留言">0</a>
+						</span>
+							<p class="introduce">一个网页难免遇到使用a标签的时候。不过最近在工作中遇到许多的同学使用a标签的时候遇到a标签被莫名其妙 …</p>
+							<a href="" class="btn btn-primary"><b>Continue reading</b><i></i></a>
+						</div>
+					</div>
+					<div class="col-md-6 item" >
+						<a href="" class="thumbnail">
+							<img src="img/life-4.jpg" alt="life-4" >
+						</a>
+						<div class="label">
+							<span class="glyphicon glyphicon-folder-open label-icon"></span>&nbsp;
+							<a href="" class="theme">电影&&动漫，</a><a href="classify">生活</a>
+						</div>
+						<div class="page-header" >
+							<h4>
+								<a href="" class="title">火影人生</a>
+							</h4>
+							&nbsp;By&nbsp;<a href="" class="author">Sphinx</a>
+						</div>
+						<div class="item-info">
+						<span class="time-info">
+							<b class="glyphicon glyphicon-time label-icon"></b>
+							<i class="date">2017-07-19</i>,<i class="time">15:49</i>
+						</span>
+							<span class="tag-info">
+							<b class="glyphicon glyphicon-tag label-icon"></b>
+							<a>电影&动漫</a>
+						</span>
+							<span class="message">
+							<b class="glyphicon glyphicon-comment label-icon"></b>
+							<a data-toggle="tooltip" data-placement="bottom"
+							   title="留言">0</a>
+						</span>
+							<p class="introduce">一个网页难免遇到使用a标签的时候。不过最近在工作中遇到许多的同学使用a标签的时候遇到a标签被莫名其妙 …</p>
+							<a href="" class="btn btn-primary"><b>Continue reading</b><i></i></a>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div id="myMusic"></div>
+		<div id="myGame"></div>
+		<div id="about"></div>
+		<div id="guestbook">
+			<h3 class="text-center">Guest Book</h3>
+			<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion"
+								   href="#collapseThree" class="text-center" style="display: block;width:100%;height: 100%">
+									Read Guest Book
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul class="message">
+									<li>
+										<img src="img/men.jpg" alt="头像" class="pull-left pic">
+										<p class="info well pull-left">心累，后台可咋搞啊</p>
+										<span class="time-info pull-right">
+											<b class="glyphicon glyphicon-time label-icon"></b>
+											<i class="date">2017-07-19</i>,<i class="time">15:49</i>
+										</span>
+									</li>
+									<li>
+										<img src="img/men.jpg" alt="头像" class="pull-left pic">
+										<p class="info well pull-left">心累，后台可咋搞啊</p>
+										<span class="time-info pull-right">
+											<b class="glyphicon glyphicon-time label-icon"></b>
+											<i class="date">2017-07-19</i>,<i class="time">15:49</i>
+										</span>
+									</li>
+								</ul>
+								<form  id="message-form" action="##">
+									<div class="board">
+										<textarea class="puttext" maxlength="50" autofocus="autofocus" value="please"></textarea>
+										<img src="img/men.jpg" alt="男生" class="touxiang">
+										<button class="btn btn-info pull-right" id="btn-leaveMessage">我要留言</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--end of container-->
+	<footer id="footer">
+		<div class="container">
+			<h4 class="text-center">友情链接</h4>
+			<div class="return" >
+				<div class="ret-con" id="return">
+					<a href="##"><i class="glyphicon glyphicon-chevron-up"></i>返回顶部</a>
+				</div>
+			</div>
+			<ul class="row text-center">
+				<li class="col-md-4 col-xs-6 "><a href="https://www.liaoxuefeng.com" target="_blank">廖雪峰 »<i>膜拜，神一般的存在。</i></a></li>
+				<li class="col-md-4 col-xs-6"><a href="http://www.ruanyifeng.com" target="_blank">阮一峰 » <i>阮大神不用说了</i></a></li>
+				<li class="col-md-4 col-xs-6"><a href="http://mouto.org/" target="_blank">卜卜口 » <i>二次元化身</i></a></li>
+				<li class="col-md-4 col-xs-6"><a href="http://yanhaijing.com/" target="_blank">颜海镜 »<i>想盗用他的头像，哈哈！</i></a></li>
+				<li class="col-md-4 col-xs-6"><a href="http://www.barretlee.com/" target="_blank">小胡子哥 » <i>风格简洁喜欢</i></a></li>
+				<li class="col-md-4 col-xs-6"><a href="http://www.zhangxinxu.com/" target="_blank">张鑫旭 » <i>《至屌丝毕业生》 感触良多</i></a></li>
+			</ul>
+			<div id="site-copyright" class="text-center">
+				<p style="color: #9D9D9D">Powered by 秦朗（Sphinx.Von）  Copyright © 2017<a href="http://www.miitbeian.gov.cn/" target="block">赣ICP备17004290号-1</a>
+					<a href="mailto:1154653008@qq.com">联系方式：1154653008@qq.com</a>
+				</p>
+			</div>
+		</div>
+	</footer><!--end of footer-->
+	<!-- jQuery (Bootstrap 插件需要引入) -->
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<!-- 包含了所有编译插件 -->
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/canvas.js"></script>
+	<script src="./js/audio.js"></script>
+	<script type="text/javascript" src="./js/return.js"></script>
+	<script src="js/swiper-min.js"></script>
+	<script>
+        $(function () { $("[data-toggle='tooltip']").tooltip(); });
+        var flag = true;
+		$('#guestbook #message-form .board .touxiang').click(function () {
+		    flag?$(this).prop("src",'./img/women.jpg'):$(this).prop("src",'./img/men.jpg');
+			flag = !flag;
+        });
+		(function () {
+		    var $now = new Date();
+
+            console.log(toTwo($now.getMonth()));
+            $('#btn-leaveMessage').click(function () {
+                var $oLi = $("<li></li>"),
+                    $oImg = $("<img alt='头像' class='pull-left pic'>"),
+                    $oP = $("<p class='info well pull-left'></p>"),
+                    $oSpan = $("<span class='time-info pull-right'><b class='glyphicon glyphicon-time label-icon'></b>" +
+                        "<i class='date'></i>,<i class='time'></i></span>");
+                $oLi.append($oImg);
+                $oLi.append($oP);
+                $oLi.append($oSpan);
+                var $text = $("#message-form .board .puttext").val();
+				if($text){
+                    $oP.text($text);
+                    $oImg.prop("src",$('#guestbook #message-form .board .touxiang').prop("src"));
+                    var date = $now.getFullYear() +'-'+toTwo($now.getMonth()+1)+'-'+toTwo($now.getDate());
+                    var time = toTwo($now.getHours())+':'+toTwo($now.getMinutes());
+                    $($oSpan).children().eq(1).text(date);
+                    $($oSpan).children().eq(2).text(time);
+                    $('#guestbook .message').append($oLi);
+				}
+                $("#message-form .board .puttext").val('');
+                $("#message-form .board .puttext").focus();
+            });
+            function toTwo(data) {
+				return data<10?'0'+data:data;
+            }
+        })()
+
+	</script>
+ </body>
+</html>
